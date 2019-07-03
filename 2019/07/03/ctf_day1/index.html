@@ -89,7 +89,7 @@
     </div>
     
         <div id="toc" class="toc-article">
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#RE：从零开始的github-hexo博客搭建"><span class="toc-text">RE：从零开始的github+hexo博客搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装node-js"><span class="toc-text">安装node.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装git"><span class="toc-text">安装git</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置环境变量"><span class="toc-text">配置环境变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装hexo"><span class="toc-text">安装hexo</span></a></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#RE：从零开始的github-hexo博客搭建"><span class="toc-text">RE：从零开始的github+hexo博客搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装node-js"><span class="toc-text">安装node.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装git"><span class="toc-text">安装git</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置环境变量"><span class="toc-text">配置环境变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装hexo"><span class="toc-text">安装hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#注册github"><span class="toc-text">注册github</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#上传本地的仓库"><span class="toc-text">上传本地的仓库</span></a></li></ol></li></ol>
 </div>
     
 </div>
@@ -134,13 +134,13 @@
     <div class="post-content ">
         <h1 id="RE：从零开始的github-hexo博客搭建"><a href="#RE：从零开始的github-hexo博客搭建" class="headerlink" title="RE：从零开始的github+hexo博客搭建"></a>RE：从零开始的github+hexo博客搭建</h1><h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener"><strong>node.js</strong></a></h2><p>Nodejs标准的web开发框架Express，可以帮助我们迅速建立web站点，而且学习曲线更低。非常适合小型网站，个性化网站</p>
 <ol>
-<li>打开链接</li>
+<li><a href="https://nodejs.org/en" target="_blank" rel="noopener">打开链接</a></li>
 <li><img src="https://raw.githubusercontent.com/BeyoungBoSs/images/master/img/1562120225824.png" alt="1562120225824"></li>
 <li>左边绿色按钮为下载通用版，右边是最新版</li>
 </ol>
-<h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener"><strong>git</strong></a></h2><p>是一个开源的分布式版本控制系统，用以有效、高速的处理从很小到非常大的项目版本管理 </p>
+<h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装<a href="https://git-scm.com/" target="_blank" rel="noopener"><strong>git</strong></a></h2><p>是一个开源的分布式版本控制系统，用以有效、高速的处理从很小到非常大的项目版本管理 </p>
 <ol>
-<li>打开链接</li>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener">打开链接</a></li>
 <li><img src="https://raw.githubusercontent.com/BeyoungBoSs/images/master/img/1562120405797.png" alt="1562120405797"></li>
 </ol>
 <p>​       点击Downloads</p>
@@ -168,7 +168,90 @@
 </ol>
 <p>cmd中输入node后再输入var n=10测试下</p>
 <p><img src="https://github.com/BeyoungBoSs/images/raw/master/img/1562121557375.png" alt="1562121557375"></p>
-<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2>
+<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><ol>
+<li>进入NodeJS的安装目录 </li>
+<li>在空白处右键，因为安装了git的原因，会有</li>
+</ol>
+<p><img src="D:%5Cblog%5Csource%5Cimages%5Cimages%5Cimg%5C1562129164440.png" alt="1562129164440"></p>
+<ol start="3">
+<li>点击后进入</li>
+</ol>
+<p><img src="D:%5Cblog%5Csource%5Cimages%5Cimages%5Cimg%5C1562129335229.png" alt="1562129335229"></p>
+<p>输入：</p>
+<p><code>npm install -g hexo</code></p>
+<p>此处安装很玄学，有可能报错，有可能半天无反应</p>
+<p>常见错误即解决：1.权限不够：换成<code>sudo npm install -g hexo</code></p>
+<p>​                               2.下载地址问题：<a href="https://blog.csdn.net/fanhu6816/article/details/53812724" target="_blank" rel="noopener">npm install 无响应解决方案,从此不用在等了</a></p>
+<p>​                               3.<a href="http://www.baidu.com/" target="_blank" rel="noopener">其他</a>请自行</p>
+<ol start="4">
+<li>等待片刻</li>
+<li>为你的博客创建一个本地文件夹</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir blog &amp;&amp; cd D:blog</span><br></pre></td></tr></table></figure>
+
+<p>此处D:blog便是你的博客目录，自定义路径，最好将此目录备份，以防文件夹丢失后博客就没有了 </p>
+<ol start="6">
+<li>依次执行</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<ol start="7">
+<li>可以看本地效果并确定你是否完成了</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<p>访问访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 即可看到本地博客</p>
+<h2 id="注册github"><a href="#注册github" class="headerlink" title="注册github"></a>注册github</h2><ol>
+<li>访问<a href="https://github.com/" target="_blank" rel="noopener">https://github.com</a> </li>
+</ol>
+<p>创建一个账号，完成后点击写着“sign up for GitHub”的绿色按钮 ，github会发邮件让你通过邮箱验证</p>
+<ol start="2">
+<li>新建仓库</li>
+</ol>
+<p><img src="D:%5Cblog%5Csource%5Cimages%5Cimages%5Cimg%5C1562130727170.png" alt="1562130727170"></p>
+<ol start="3">
+<li><p><strong>很重要</strong>    Github Pages的Repository名字是特定的，比如我Github账号是BeyoungBoSs，那么我Github Pages Repository名字就是BeyoungBoSs.github.io （按格式填入）</p>
+<p><img src="D:%5Cblog%5Csource%5Cimages%5Cimages%5Cimg%5C1562130796675.png" alt="1562130796675"></p>
+</li>
+</ol>
+<ol start="4">
+<li>点击<img src="D:%5Cblog%5Csource%5Cimages%5Cimages%5Cimg%5C1562130908530.png" alt="1562130908530"></li>
+</ol>
+<p>进入你刚建的仓库</p>
+<p><img src="D:%5Cblog%5Csource%5Cimages%5Cimages%5Cimg%5C1562130967603.png" alt="1562130967603"></p>
+<ol start="5">
+<li>进入设置</li>
+</ol>
+<p><img src="D:%5Cblog%5Csource%5Cimages%5Cimages%5Cimg%5C1562131027099.png" alt="1562131027099"></p>
+<ol start="6">
+<li>选择主题</li>
+</ol>
+<p><img src="C:%5CUsers%5CADMINI~1%5CAppData%5CLocal%5CTemp%5C1562131106386.png" alt="1562131106386"></p>
+<ol start="7">
+<li>完成了<br>浏览器地址栏输入”你github的用户名.github.io”就可以看到初始的界面</li>
+</ol>
+<h2 id="上传本地的仓库"><a href="#上传本地的仓库" class="headerlink" title="上传本地的仓库"></a>上传本地的仓库</h2><ol>
+<li><p>打开刚刚新建的blog文件夹（我的是’D:\blog’）</p>
+</li>
+<li><p>打开</p>
+<p><img src="D:%5Cblog%5Csource%5Cimages%5Cimages%5Cimg%5C1562131487342.png" alt="1562131487342"></p>
+</li>
+</ol>
+<p><a href="https://www.jianshu.com/p/b26b9b520c71" target="_blank" rel="noopener">最好不用记事本打开，记事本打开记得另存为utf-8格式</a></p>
+<ol start="3">
+<li><img src="D:%5Cblog%5Csource%5Cimages%5Cimages%5Cimg%5C1562131447258.png" alt="1562131447258"></li>
+</ol>
+<p>要和图片中一模一样，其中’BeyoungBoSs‘改为你的github名字，<strong>注意：每个‘：’后都有一个空格</strong></p>
+<ol start="4">
+<li><p>右键打开git bash<br> 输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save （这命令是为了解决hexo新版本的部署问题）  </span><br><span class="line">hexo g 回车 （这是重新生成blog） </span><br><span class="line">hexo d 回车 （这是将本地blog部署到github的仓库）</span><br></pre></td></tr></table></figure>
+
+<pre><code>可能会出各种问题，需要积极百度
+</code></pre></li>
+</ol>
+<p>至此教程完成</p>
+<p>还有更换主题，和博文的<a href="https://blog.csdn.net/csdnzcj/article/details/60876438" target="_blank" rel="noopener">markdown语法</a></p>
+
         
             <div class="donate-container">
     <div class="donate-button">
