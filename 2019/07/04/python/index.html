@@ -11,7 +11,7 @@
 
     <title>
         
-        Welcome | Beyoung&#39;s 博客
+        Python - Welcome | Beyoung&#39;s 博客
         
     </title>
 
@@ -53,7 +53,7 @@
     </div>
     <div class="contents" id="nav-content">
         <ul>
-            <li  class=active >
+            <li >
                 <a href="/">
                     <i class="iconfont icon-shouye1"></i>
                     <span>主页</span>
@@ -88,6 +88,10 @@
         </ul>
     </div>
     
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#python学习随手记"><span class="toc-text">python学习随手记</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#基础"><span class="toc-text">基础</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#变量的命名和使用"><span class="toc-text">变量的命名和使用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#字符串"><span class="toc-text">字符串</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#一些方法"><span class="toc-text">一些方法</span></a></li></ol></li></ol></li></ol>
+</div>
+    
 </div>
 
 
@@ -112,69 +116,60 @@
     <div class="index-middle">
         <!-- Main Content -->
         
-<div class="post-preview-container" style="min-height: 720px">
-    
-    <div class="post-preview">
-        <div class="post-time">2019-07-04</div>
-        <div class="post-info">
-            <a href="/2019/07/04/Python/">
-                <h3>
-                    Python
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
+
+
+<div class="post-container">
+    <div class="post-title">
+        Python
     </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2019-07-03</div>
-        <div class="post-info">
-            <a href="/2019/07/03/ctf_day1/">
-                <h3>
-                    环境搭建
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2019-07-04 21:53:37</span></span>
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
     </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2019-07-02</div>
-        <div class="post-info">
-            <a href="/2019/07/02/beat2/">
-                <h3>
-                    BETA2
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
+    <div class="post-content ">
+        <h1 id="python学习随手记"><a href="#python学习随手记" class="headerlink" title="python学习随手记"></a><strong>python学习随手记</strong></h1><blockquote>
+<p>都是一些基础，用来写博客了练练手</p>
+</blockquote>
+<h1 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h1><h3 id="变量的命名和使用"><a href="#变量的命名和使用" class="headerlink" title="变量的命名和使用"></a>变量的命名和使用</h3><ol>
+<li>变量名只含   字母、数字、下划线   不能有空格</li>
+<li>慎用小写字母‘i’和大写字母‘O’<h3 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h3></li>
+<li>引号成对出现</li>
+<li><code>print(&#39;hello &quot;world&quot;&#39;)</code></li>
+<li><code>print(&#39;&#39;&#39;hello &quot;world&quot;&#39;&#39;&#39;)</code><h3 id="一些方法"><a href="#一些方法" class="headerlink" title="一些方法"></a>一些方法</h3></li>
+<li><code>.title()</code>：首字母大写</li>
+<li><code>.upper()</code>全大写</li>
+<li><code>.lower()</code>全小写</li>
+<li><code>.rstrip()</code>删除字符串末尾的空白（但是保存在临时变量里，想改变原变量就要重新赋值回去）</li>
+<li><code>.lstrip()</code>删除字符串首段的空白</li>
+<li><code>.strip()</code>删除字符串两边的空白</li>
+</ol>
+
+        
+            <div class="donate-container">
+    <div class="donate-button">
+        <button id="donate-button">赞赏</button>
     </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2019-06-25</div>
-        <div class="post-info">
-            <a href="/2019/06/25/beta1/">
-                <h3>
-                    BETA1
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
+    <div class="donate-img-container hide" id="donate-img-container">
+        <img id="donate-img" src="" data-src="/images/939fe96dd0c2c80d34cf456b68c167c2.jpeg">
+        <p> 感谢鼓励 </p>
     </div>
-    
 </div>
-<ul class="pager">
-    
-    
-</ul>
+        
+        <br />
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
 
     </div>
 </div>
@@ -247,12 +242,31 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.json"
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+        */
+        if( '' || '')
+        var disqus_config = function () {
+            this.page.url = '';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = ''; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = '#';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
 
 
 
