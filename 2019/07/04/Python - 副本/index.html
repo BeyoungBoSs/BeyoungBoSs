@@ -89,7 +89,7 @@
     </div>
     
         <div id="toc" class="toc-article">
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#python学习随手记"><span class="toc-text">python学习随手记</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#基础"><span class="toc-text">基础</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#变量的命名和使用"><span class="toc-text">变量的命名和使用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#字符串"><span class="toc-text">字符串</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#一些方法"><span class="toc-text">一些方法</span></a></li></ol></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#python学习随手记"><span class="toc-text">python学习随手记</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#基础"><span class="toc-text">基础</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#变量的命名和使用"><span class="toc-text">变量的命名和使用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#字符串"><span class="toc-text">字符串</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#一些方法"><span class="toc-text">一些方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Python版本print"><span class="toc-text">Python版本print</span></a></li></ol></li></ol></li></ol>
 </div>
     
 </div>
@@ -144,9 +144,18 @@
 <li><code>.title()</code>：首字母大写</li>
 <li><code>.upper()</code>全大写</li>
 <li><code>.lower()</code>全小写</li>
-<li><code>.rstrip()</code>删除字符串末尾的空白（但是保存在临时变量里，想改变原变量就要重新赋值回去）</li>
+<li><code>.rstrip()</code>删除字符串末尾的空白（删除后保存在临时变量里，想改变原变量就要重新赋值回去）</li>
 <li><code>.lstrip()</code>删除字符串首段的空白</li>
 <li><code>.strip()</code>删除字符串两边的空白</li>
+</ol>
+<h3 id="Python版本print"><a href="#Python版本print" class="headerlink" title="Python版本print"></a>Python版本print</h3><ol>
+<li><p>python2.x print中无需将要打印的内容放括号里</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">b=2</span><br><span class="line">print &quot;the sum=&quot;,a+b,#末尾添加逗号不换行</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>python3.x print是一个函数</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">a=1</span><br><span class="line">b=2</span><br><span class="line">print(&quot;the sum=&quot;,a+b,end=&quot;&quot;)#end参数默认为\n</span><br><span class="line">&gt;3</span><br><span class="line">print(&quot;the sum=&quot;,a+b,end=&quot;asd&quot;)</span><br><span class="line">&gt;3asd</span><br></pre></td></tr></table></figure>
+
+</li>
 </ol>
 
         
