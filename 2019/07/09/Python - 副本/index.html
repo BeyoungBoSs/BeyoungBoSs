@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content>
+    <meta name="keyword" content="腾讯">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>
+        
+        Python - Welcome | Beyoung&#39;s 博客
+        
+    </title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/aircloud.css">
+    <link rel="stylesheet" href="/css/gitment.css">
+    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
+    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+<body>
+
+<div class="site-nav-toggle" id="site-nav-toggle">
+    <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+    </button>
+</div>
+
+<div class="index-about">
+    <i> Infinite possibilities for the future | 未来无限可能 </i>
+</div>
+
+<div class="index-container">
+    
+    <div class="index-left">
+        
+<div class="nav" id="nav">
+    <div class="avatar-name">
+        <div class="avatar ">
+            <img src="/images/IMG_2237.JPG" />
+        </div>
+        <div class="name">
+            <i>BeyoungBoSs</i>
+        </div>
+    </div>
+    <div class="contents" id="nav-content">
+        <ul>
+            <li >
+                <a href="/">
+                    <i class="iconfont icon-shouye1"></i>
+                    <span>主页</span>
+                </a>
+            </li>
+            <li >
+                <a href="/tags">
+                    <i class="iconfont icon-biaoqian1"></i>
+                    <span>标签</span>
+                </a>
+            </li>
+            <li >
+                <a href="/archives">
+                    <i class="iconfont icon-guidang2"></i>
+                    <span>存档</span>
+                </a>
+            </li>
+            <li >
+                <a href="/about/">
+                    <i class="iconfont icon-guanyu2"></i>
+                    <span>关于</span>
+                </a>
+            </li>
+            
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#python学习随手记"><span class="toc-text">python学习随手记</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#基础"><span class="toc-text">基础</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#变量的命名和使用"><span class="toc-text">变量的命名和使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#字符串"><span class="toc-text">字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#一些方法"><span class="toc-text">一些方法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Python版本print"><span class="toc-text">Python版本print</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Python版本整除"><span class="toc-text">Python版本整除</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#负数向下取整"><span class="toc-text">负数向下取整</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#python之禅"><span class="toc-text">python之禅</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#列表"><span class="toc-text">列表</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#列表的访问"><span class="toc-text">列表的访问</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#一些方法-1"><span class="toc-text">一些方法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#数字列表"><span class="toc-text">数字列表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#range"><span class="toc-text">range</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#简单统计"><span class="toc-text">简单统计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#列表解析"><span class="toc-text">列表解析</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#过滤函数Filter函数"><span class="toc-text">过滤函数Filter函数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Lambda函数"><span class="toc-text">Lambda函数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#序列映射函数Map函数"><span class="toc-text">序列映射函数Map函数</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#切片"><span class="toc-text">切片</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#复制列表"><span class="toc-text">复制列表</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#元组"><span class="toc-text">元组</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#if语句"><span class="toc-text">if语句</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#检测多个条件"><span class="toc-text">检测多个条件</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#字典"><span class="toc-text">字典</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#输入"><span class="toc-text">输入</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#函数"><span class="toc-text">函数</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#传递实参"><span class="toc-text">传递实参</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#位置实参"><span class="toc-text">位置实参</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#关键字实参"><span class="toc-text">关键字实参</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#默认值"><span class="toc-text">默认值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#禁止函数修改列表"><span class="toc-text">禁止函数修改列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#传递任意数量的实参"><span class="toc-text">传递任意数量的实参</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#类"><span class="toc-text">类</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Python-作用域和命名空间"><span class="toc-text">Python 作用域和命名空间</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#创建类"><span class="toc-text">创建类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#访问属性"><span class="toc-text">访问属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#调用方法"><span class="toc-text">调用方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#给属性指定默认值"><span class="toc-text">给属性指定默认值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#修改属性的值"><span class="toc-text">修改属性的值</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#直接修改"><span class="toc-text">直接修改</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#通过方法修改"><span class="toc-text">通过方法修改</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#继承"><span class="toc-text">继承</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#重写父类的方法"><span class="toc-text">重写父类的方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#将实例用作属性"><span class="toc-text">将实例用作属性</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#导入类"><span class="toc-text">导入类</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#文件和异常"><span class="toc-text">文件和异常</span></a></li></ol>
+</div>
+    
+</div>
+
+
+<div class="search-field" id="search-field">
+    <div class="search-container">
+        <div class="search-input">
+            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
+            <input id="search-input"/>
+            <span id="begin-search">搜索</span>
+        </div>
+        <div class="search-result-container" id="search-result-container">
+
+        </div>
+    </div>
+</div>
+
+        <div class="index-about-mobile">
+            <i> Infinite possibilities for the future | 未来无限可能 </i>
+        </div>
+    </div>
+    
+    <div class="index-middle">
+        <!-- Main Content -->
+        
+
+
+<div class="post-container">
+    <div class="post-title">
+        Python
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2019-07-09 20:06:20</span></span>
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <h1 id="python学习随手记"><a href="#python学习随手记" class="headerlink" title="python学习随手记"></a><strong>python学习随手记</strong></h1><blockquote>
+<p>都是一些基础，用来写博客了练练手</p>
+</blockquote>
+<h1 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h1><h2 id="变量的命名和使用"><a href="#变量的命名和使用" class="headerlink" title="变量的命名和使用"></a>变量的命名和使用</h2><ol>
+<li><p>变量名只含   字母、数字、下划线   不能有空格</p>
+</li>
+<li><p>慎用小写字母‘i’和大写字母‘O’</p>
+<h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2></li>
+<li><p>引号成对出现</p>
+</li>
+<li><p><code>print(&#39;hello &quot;world&quot;&#39;)</code></p>
+</li>
+<li><p><code>print(&#39;&#39;&#39;hello &quot;world&quot;&#39;&#39;&#39;)</code></p>
+</li>
+<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">def good()</span><br><span class="line">	&quot;&quot;&quot;  文档字符串  &quot;&quot;&quot;   #用三引号括起，生成有关函数中程序文档，调试开发有用</span><br><span class="line">	print(hello)</span><br></pre></td></tr></table></figure>
+</li>
+<li><h3 id="一些方法"><a href="#一些方法" class="headerlink" title="一些方法"></a>一些方法</h3></li>
+<li><p><code>.title()</code>：首字母大写</p>
+</li>
+<li><p><code>.upper()</code>全大写</p>
+</li>
+<li><p><code>.lower()</code>全小写</p>
+</li>
+<li><p><code>.rstrip()</code>删除字符串末尾的空白（删除后保存在临时变量里，想改变原变量就要重新赋值回去）</p>
+</li>
+<li><p><code>.lstrip()</code>删除字符串首段的空白</p>
+</li>
+<li><p><code>.strip()</code>删除字符串两边的空白</p>
+</li>
+</ol>
+<h2 id="Python版本print"><a href="#Python版本print" class="headerlink" title="Python版本print"></a>Python版本print</h2><ol>
+<li><p>python2.x print中无需将要打印的内容放括号里</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a=1</span><br><span class="line">b=2</span><br><span class="line">print &quot;the sum=&quot;,a+b,#末尾添加逗号不换行</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>python3.x print是一个函数</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">a=1</span><br><span class="line">b=2</span><br><span class="line">print(&quot;the sum=&quot;,a+b,end=&quot;&quot;)#end参数默认为\n</span><br><span class="line">&gt;3</span><br><span class="line">print(&quot;the sum=&quot;,a+b,end=&quot;asd&quot;)</span><br><span class="line">&gt;3asd</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h3 id="Python版本整除"><a href="#Python版本整除" class="headerlink" title="Python版本整除"></a>Python版本整除</h3><ol>
+<li><p>python2.x </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">print 3/2</span><br><span class="line">&gt;1</span><br><span class="line">print 3/2.0</span><br><span class="line">&gt;1.5</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>python3.x </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">print(3/2)</span><br><span class="line">&gt;1.5</span><br><span class="line">print(3//2)</span><br><span class="line">&gt;1</span><br><span class="line">print(3//2.0)</span><br><span class="line">&gt;1.0</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h2 id="负数向下取整"><a href="#负数向下取整" class="headerlink" title="负数向下取整"></a>负数向下取整</h2><p>python除法采取的是向下取整，即向负无穷方向取最接近精确值的整数。</p>
+<ol>
+<li>故当整除运算有负数(python3)</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">print(-3//2)</span><br><span class="line">&gt;-2</span><br><span class="line">print(int(-3//2))</span><br><span class="line">&gt;-2</span><br><span class="line">&gt; print(int(-3/2))</span><br><span class="line">&gt;-1</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>取余运算</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">print(-5%4)</span><br><span class="line">&gt;3</span><br><span class="line"># -5 // 4 = -2 , -5 - (-2) * 4 = 3</span><br><span class="line"># -5 - 3 % 4 = 0</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="python之禅"><a href="#python之禅" class="headerlink" title="python之禅"></a>python之禅</h2><blockquote>
+<p>python的原则</p>
+</blockquote>
+<p><img src="https://github.com/BeyoungBoSs/images/raw/master/img/1562474065717.png" alt="1562474065717"></p>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><h2 id="列表的访问"><a href="#列表的访问" class="headerlink" title="列表的访问"></a>列表的访问</h2><p>列表:  [  ]</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">t=[ (&apos;a&apos;,1) , (&apos;b&apos;,2,3) , 4 ]</span><br><span class="line">print(t[0])    #索引从0开始，末尾为-1</span><br><span class="line">&gt;(&apos;a&apos;,1)</span><br><span class="line">print(t[-1])</span><br><span class="line">&gt;4</span><br><span class="line">print(t[1][2])</span><br><span class="line">&gt;3</span><br></pre></td></tr></table></figure>
+
+<h3 id="一些方法-1"><a href="#一些方法-1" class="headerlink" title="一些方法"></a>一些方法</h3><ol>
+<li><code>.append(&#39;123&#39;)</code>将元素 ‘123’ 放入列表末尾</li>
+<li><code>.insert(0.&#39;123&#39;)</code>将元素 ‘123’ 放入索引 0 处,其他元素右移</li>
+<li><code>del t[0]</code>永久删除索引为 0 处的元素</li>
+<li><code>pop(0)</code>临时删除（列表里不存在，在临时变量里）索引 0 处的元素，默认索引-1</li>
+<li><code>remove(&#39;123&#39;)</code>临时根据值删除元素，只删除顺序第一个，无法多个</li>
+<li><code>sort()</code>永久性排序，参数reverse=True为倒序，默认reverse=False正序<code>car.sort(reverse=False)#方法</code></li>
+<li><code>sorted()</code>临时性排序<code>sorted(t)#函数</code></li>
+<li><code>reverse()</code>反转列表</li>
+<li><code>len()</code>表长</li>
+</ol>
+<h2 id="数字列表"><a href="#数字列表" class="headerlink" title="数字列表"></a>数字列表</h2><h3 id="range"><a href="#range" class="headerlink" title="range"></a>range</h3><p><code>range( 1 , 5 , 2 )</code>范围左闭右开 [ 1 , 5 ) 步长为 2（默认为1）</p>
+<h3 id="简单统计"><a href="#简单统计" class="headerlink" title="简单统计"></a>简单统计</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">t=[1,2,3]</span><br><span class="line">print(min(t))</span><br><span class="line">&gt;1</span><br><span class="line">print(max(t))</span><br><span class="line">&gt;3</span><br><span class="line">print(sum(t))</span><br><span class="line">&gt;6</span><br></pre></td></tr></table></figure>
+
+<h3 id="列表解析"><a href="#列表解析" class="headerlink" title="列表解析"></a>列表解析</h3><h4 id="过滤函数Filter函数"><a href="#过滤函数Filter函数" class="headerlink" title="过滤函数Filter函数"></a>过滤函数Filter函数</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">t=[1,2,3,4,5,6]</span><br><span class="line">filter(lambda x:x%2,t) </span><br><span class="line">&gt;[1, 3, 5]</span><br><span class="line">print(filter(lambda x:x%2==1,t))</span><br><span class="line">&gt;[1, 3, 5]</span><br></pre></td></tr></table></figure>
+
+<h4 id="Lambda函数"><a href="#Lambda函数" class="headerlink" title="Lambda函数"></a>Lambda函数</h4><ol>
+<li><p>lambda允许用户快速定义单行函数，当然用户也可以按照典型的函数定义完成函数。</p>
+</li>
+<li><p>lambda定义的是单行函数，如果需要复杂的函数，应该定义普通函数</p>
+</li>
+<li><p>lambda参数列表可以包含多个参数，如lambda x,y:x+y</p>
+</li>
+<li><p>lambda中的表达式不能含有命令，而且只限一条表达式</p>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">lst=[&apos;Welcome&apos;, &apos;to&apos;, &apos;Python&apos;]</span><br><span class="line">f=lambda x:x[-1]</span><br><span class="line">g=lambda x:len(x)</span><br><span class="line">print(f(lst))</span><br><span class="line">&gt;Python</span><br><span class="line">print(g(lst)) </span><br><span class="line">&gt;3</span><br></pre></td></tr></table></figure>
+
+<h4 id="序列映射函数Map函数"><a href="#序列映射函数Map函数" class="headerlink" title="序列映射函数Map函数"></a>序列映射函数Map函数</h4><p>Map主要用来对多个序列进行映射处理并返回一个处理后的对应序列。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">m=[1,2,3,4,5,6]</span><br><span class="line">map(lambda x:x**2,m)</span><br><span class="line">&gt;[1, 4, 9, 16, 25, 36]</span><br></pre></td></tr></table></figure>
+
+<p>列表解析几种呈现</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">#找出1~9的三次方中的偶数项</span><br><span class="line">#方法1：列表解析+if判断</span><br><span class="line"></span><br><span class="line">t=[x**3 for x in range(1,10) if x%2==0]</span><br><span class="line">print(t)</span><br><span class="line">&gt;[8, 64, 216, 512]</span><br><span class="line"></span><br><span class="line">#方法2：列表解析+filter+lambda函数</span><br><span class="line"></span><br><span class="line">t=list(filter((lambda x:x%2==0),[x**3 for x in range(1,10)]))</span><br><span class="line">print(t)  </span><br><span class="line">&gt;[8, 64, 216, 512]</span><br><span class="line"></span><br><span class="line">#方法3：map+filter+lambda函数（列表解析类似于map函数，但列表解析比map函数运行要快一点，map函数对for循环要快2倍）</span><br><span class="line"></span><br><span class="line">t=list(filter(lambda x:x%2==0,map((lambda x:x**3),range(1,10))))</span><br><span class="line">print(t)  </span><br><span class="line">&gt;[8, 64, 216, 512]</span><br></pre></td></tr></table></figure>
+
+<h3 id="切片"><a href="#切片" class="headerlink" title="切片"></a>切片</h3><p>[ m : n ]</p>
+<p>从索引m开始，到n-1结束（默认为表头：表尾）共 m-n 个元素</p>
+<h4 id="复制列表"><a href="#复制列表" class="headerlink" title="复制列表"></a>复制列表</h4><p>   [ : ]   #列表之间不能简单赋值，要用复制</p>
+<h2 id="元组"><a href="#元组" class="headerlink" title="元组"></a>元组</h2><p>元组：()</p>
+<p>不能修改元组的元素，但可以给整个元组赋值(覆盖)</p>
+<h1 id="if语句"><a href="#if语句" class="headerlink" title="if语句"></a>if语句</h1><h2 id="检测多个条件"><a href="#检测多个条件" class="headerlink" title="检测多个条件"></a>检测多个条件</h2><ul>
+<li><p>and</p>
+</li>
+<li><p>or</p>
+</li>
+<li><p>in #检查是否在其中</p>
+</li>
+<li><p>if-else</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">if A:</span><br><span class="line">else:</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>if-elif-else</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">if A:</span><br><span class="line">elif B:</span><br><span class="line">else:</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h1 id="字典"><a href="#字典" class="headerlink" title="字典"></a>字典</h1><p>字典：{  }         一系列的键值对</p>
+<ol>
+<li><p>添加键值对</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">t=&#123;&#125;</span><br><span class="line">t[&apos;new&apos;]=1</span><br><span class="line">print(t)</span><br><span class="line">&gt;&#123;&apos;new&apos;: 1&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>del t[&#39;new&#39;]</code>删除键值对</p>
+</li>
+<li><p><code>.items()</code>所有键值对</p>
+</li>
+<li><p><code>.keys()</code>所以键</p>
+</li>
+<li><p><code>.values()</code>所有值</p>
+</li>
+</ol>
+<h1 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h1><p>python2</p>
+<ul>
+<li>raw_input()</li>
+</ul>
+<p>python3</p>
+<ul>
+<li>input()</li>
+</ul>
+<h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><h2 id="传递实参"><a href="#传递实参" class="headerlink" title="传递实参"></a>传递实参</h2><h3 id="位置实参"><a href="#位置实参" class="headerlink" title="位置实参"></a>位置实参</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">def good(m,n):</span><br><span class="line">    print(m+&apos; &apos;+n)</span><br><span class="line"></span><br><span class="line">good(&apos;good&apos;,&apos;day&apos;)    #m对应&apos;good&apos;，n对应&apos;day&apos;</span><br><span class="line">&gt;good day</span><br></pre></td></tr></table></figure>
+
+<p>按顺序一一对应</p>
+<h3 id="关键字实参"><a href="#关键字实参" class="headerlink" title="关键字实参"></a>关键字实参</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">def good(m,n):</span><br><span class="line">    print(m+&apos; &apos;+n)</span><br><span class="line"></span><br><span class="line">good(m=&apos;good&apos;,n=&apos;day&apos;)    #m对应&apos;good&apos;，n对应&apos;day&apos;</span><br><span class="line">&gt;good day</span><br></pre></td></tr></table></figure>
+
+<h3 id="默认值"><a href="#默认值" class="headerlink" title="默认值"></a>默认值</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">def good(m,n=&apos;day&apos;):</span><br><span class="line">    print(m+&apos; &apos;+n)</span><br><span class="line"></span><br><span class="line">good(&apos;good&apos;)    #m对应&apos;good&apos;，n提供默认值&apos;day&apos;</span><br><span class="line">&gt;good day</span><br></pre></td></tr></table></figure>
+
+<p>这样可以使实参变成可选项，但必须注意将默认值放最后（不然会覆盖）</p>
+<h3 id="禁止函数修改列表"><a href="#禁止函数修改列表" class="headerlink" title="禁止函数修改列表"></a>禁止函数修改列表</h3><p>利用切片 [ : ] 制作副本</p>
+<h3 id="传递任意数量的实参"><a href="#传递任意数量的实参" class="headerlink" title="传递任意数量的实参"></a>传递任意数量的实参</h3><p>*m中星号创建了一个名为m的空元组</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">def good(*m):</span><br><span class="line">    print(m)</span><br><span class="line"></span><br><span class="line">good(&apos;good&apos;,&apos;day&apos;,&apos;is&apos;,&apos;nice&apos;)   </span><br><span class="line">&gt;gooddayisnice</span><br></pre></td></tr></table></figure>
+
+<p>**m创建空字典</p>
+<h1 id="类"><a href="#类" class="headerlink" title="类"></a>类</h1><p>类提供了一种组合数据和功能的方法。</p>
+<p>创建一个新类意味着创建一个新类型 的对象，从而允许创建一个该类型的新实例。</p>
+<p>每个类的实例可以拥有保存自己状态的属性。一个类的实例也可以有改变自己状态的（定义在类中的）方法。</p>
+<h2 id="Python-作用域和命名空间"><a href="#Python-作用域和命名空间" class="headerlink" title="Python 作用域和命名空间"></a>Python 作用域和命名空间</h2><p><em>namespace</em> （命名空间）是一个从名字到对象的映射。 大部分命名空间当前都由 Python 字典实现，但一般情况下基本不会去关注它们（除了要面对性能问题时），而且也有可能在将来更改。</p>
+<p>命名空间的例子 ：</p>
+<ol>
+<li>存放内置函数的集合（包含 <a href="https://docs.python.org/zh-cn/3/library/functions.html#abs" target="_blank" rel="noopener"><code>abs()</code></a> 这样的函数，和内建的异常等）；</li>
+<li>模块中的全局名称；</li>
+<li>函数调用中的局部名称。 </li>
+</ol>
+<p>从某种意义上说，对象的属性集合也是一种命名空间的形式。 关于命名空间的重要一点是，不同命名空间中的名称之间绝对没有关系；例如，两个不同的模块都可以定义一个 <code>manlen</code> 函数而不会产生混淆（模块的用户必须在其前面加上模块名称）</p>
+<p> <em>属性</em> — 例如，在表达式 <code>z.real</code> 中，<code>real</code> 是对象 <code>z</code> 的一个属性。按严格的说法，对模块中名称的引用属于属性引用：在表达式 <code>modname.funcname</code> 中，<code>modname</code> 是一个模块对象而 <code>funcname</code> 是它的一个属性。在此情况下在模块的属性和模块中定义的全局名称之间正好存在一个直观的映射：它们共享相同的命名空间</p>
+<p>属性可以是只读或者可写的。如果为后者，那么对属性的赋值是可行的。模块属性是可以写，你可以写出 <code>modname.the_answer = 42</code> 。可写的属性同样可以用 <a href="https://docs.python.org/zh-cn/3/reference/simple_stmts.html#del" target="_blank" rel="noopener"><code>del</code></a> 语句删除。例如， <code>del modname.the_answer</code> 将会从名为 <code>modname</code> 的对象中移除 <code>the_answer</code> 属性。</p>
+<p>在不同时刻创建的命名空间拥有不同的生存期。包含内置名称的命名空间是在 Python 解释器启动时创建的，永远不会被删除。模块的全局命名空间在模块定义被读入时创建；通常，模块命名空间也会持续到解释器退出。被解释器的顶层调用执行的语句，从一个脚本文件读取或交互式地读取，被认为是 <a href="https://docs.python.org/zh-cn/3/library/__main__.html#module-__main__" target="_blank" rel="noopener"><code>__main__</code></a> 模块调用的一部分，因此它们拥有自己的全局命名空间。（内置名称实际上也存在于一个模块中；这个模块称作 <a href="https://docs.python.org/zh-cn/3/library/builtins.html#module-builtins" target="_blank" rel="noopener"><code>builtins</code></a> 。）</p>
+<p>一个函数的本地命名空间在这个函数被调用时创建，并在函数返回或抛出一个不在函数内部处理的错误时被删除。每次递归调用都会有它自己的本地命名空间。</p>
+<p>一个 <strong>作用域</strong>是一个命名空间可直接访问的 Python 程序的文本区域。 这里的 “可直接访问” 意味着对名称的非限定引用会尝试在命名空间中查找名称。</p>
+<p>Although scopes are determined statically, they are used dynamically. At any time during execution, there are at least three nested scopes whose namespaces are directly accessible:</p>
+<ul>
+<li>最先搜索的最内部作用域包含局部名称</li>
+<li>从最近的封闭作用域开始搜索的任何封闭函数的范围包含非局部名称，也包括非全局名称</li>
+<li>倒数第二个作用域包含当前模块的全局名称</li>
+<li>最外面的范围（最后搜索）是包含内置名称的命名空间</li>
+</ul>
+<p>如果一个名称被声明为全局变量，则所有引用和赋值将直接指向包含该模块的全局名称的中间作用域。 要重新绑定在最内层作用域以外找到的变量，可以使用 <a href="https://docs.python.org/zh-cn/3/reference/simple_stmts.html#nonlocal" target="_blank" rel="noopener"><code>nonlocal</code></a> 语句声明为非本地变量。 如果没有被声明为非本地变量，这些变量将是只读的（尝试写入这样的变量只会在最内层作用域中创建一个 <em>新的</em> 局部变量，而同名的外部变量保持不变）。</p>
+<p>通常，当前局部作用域将引用当前函数的局部名称。 在函数以外，局部作用域将引用与全局作用域相一致的命名空间：模块的命名空间。 类定义将在局部命名空间内再放置另一个命名空间。</p>
+<p>Python 的一个特殊之处在于 – 如果不存在生效的 <a href="https://docs.python.org/zh-cn/3/reference/simple_stmts.html#global" target="_blank" rel="noopener"><code>global</code></a> 语句 – 对名称的赋值总是进入最内层作用域。 赋值不会复制数据 — 它们只是将名称绑定到对象。 删除也是如此：语句 <code>del x</code> 会从局部命名空间的引用中移除对 <code>x</code> 的绑定。 事实上，所有引入新名称的操作都使用局部作用域：特别地，<a href="https://docs.python.org/zh-cn/3/reference/simple_stmts.html#import" target="_blank" rel="noopener"><code>import</code></a> 语句和函数定义会在局部作用域中绑定模块或函数名称。</p>
+<p><a href="https://docs.python.org/zh-cn/3/reference/simple_stmts.html#global" target="_blank" rel="noopener"><code>global</code></a> 语句可被用来表明特定变量生存于全局作用域并且应当在其中被重新绑定；<a href="https://docs.python.org/zh-cn/3/reference/simple_stmts.html#nonlocal" target="_blank" rel="noopener"><code>nonlocal</code></a> 语句表明特定变量生存于外层作用域中并且应当在其中被重新绑定。</p>
+<h2 id="创建类"><a href="#创建类" class="headerlink" title="创建类"></a>创建类</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">class Car():#首字母名称大写的一般是类</span><br><span class="line">    &quot;&quot;&quot; 一次模拟小车&quot;&quot;&quot;</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, gas):#一个特殊的方法，其中他的形参self必不可少用于自动传递实参给每个与类相关联的方法</span><br><span class="line">        &quot;&quot;&quot;初始化属性name和gas&quot;&quot;&quot;</span><br><span class="line">        self.name=name</span><br><span class="line">        self.gas=gas</span><br><span class="line">        </span><br><span class="line">    def sell(self):</span><br><span class="line">        print(&quot;卖出了&quot;+self.name)</span><br><span class="line">        </span><br><span class="line">    def gasis(self):</span><br><span class="line">        print(&quot;剩余汽油&quot;+self.gas)</span><br></pre></td></tr></table></figure>
+
+<p>python2 中创建类</p>
+<p><code>class Car(object):</code></p>
+<h3 id="访问属性"><a href="#访问属性" class="headerlink" title="访问属性"></a>访问属性</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">calss Car():</span><br><span class="line">	--snip--</span><br><span class="line">	</span><br><span class="line">my_car=Car(&apos;auto&apos;,&apos;500&apos;)</span><br><span class="line">print(my_car.name)</span><br></pre></td></tr></table></figure>
+
+<h3 id="调用方法"><a href="#调用方法" class="headerlink" title="调用方法"></a>调用方法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">calss Car():</span><br><span class="line">	--snip--</span><br><span class="line">	</span><br><span class="line">my_car=Car(&apos;auto&apos;,&apos;500&apos;)</span><br><span class="line">print(my_car.sell())</span><br></pre></td></tr></table></figure>
+
+<h3 id="给属性指定默认值"><a href="#给属性指定默认值" class="headerlink" title="给属性指定默认值"></a>给属性指定默认值</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">class Car():</span><br><span class="line">    &quot;&quot;&quot; 一次模拟小车&quot;&quot;&quot;</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, gas):</span><br><span class="line">        self.name=name</span><br><span class="line">        self.gas=&apos;500&apos;#设默认值500</span><br></pre></td></tr></table></figure>
+
+<h3 id="修改属性的值"><a href="#修改属性的值" class="headerlink" title="修改属性的值"></a>修改属性的值</h3><h4 id="直接修改"><a href="#直接修改" class="headerlink" title="直接修改"></a>直接修改</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">calss Car():</span><br><span class="line">	--snip--</span><br><span class="line">	</span><br><span class="line">my_car=Car(&apos;auto&apos;,&apos;500&apos;)</span><br><span class="line">my_car.name=&apos;bmw&apos;</span><br></pre></td></tr></table></figure>
+
+<h4 id="通过方法修改"><a href="#通过方法修改" class="headerlink" title="通过方法修改"></a>通过方法修改</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">class Car():#首字母名称大写的一般是类</span><br><span class="line">    &quot;&quot;&quot; 一次模拟小车&quot;&quot;&quot;</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, gas):</span><br><span class="line">        self.name=name</span><br><span class="line">        self.gas=gas</span><br><span class="line">        </span><br><span class="line">    def less(self,gasnow)</span><br><span class="line">    	self.gas=gasnow</span><br><span class="line">    	</span><br><span class="line">my_car=Car(&apos;auto&apos;,&apos;500&apos;)</span><br><span class="line">my_car.less(&apos;400&apos;)</span><br><span class="line">print(my_car.gas)</span><br><span class="line">&gt;400</span><br></pre></td></tr></table></figure>
+
+<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">class Car():</span><br><span class="line">    &quot;&quot;&quot; 一次模拟小车&quot;&quot;&quot;</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, gas):</span><br><span class="line">        self.name = name</span><br><span class="line">        self.gas = gas</span><br><span class="line"></span><br><span class="line">    def sell(self):</span><br><span class="line">        print(&quot;卖出了&quot; + self.name)</span><br><span class="line"></span><br><span class="line">    def gasis(self):</span><br><span class="line">        print(&quot;剩余汽油&quot; + self.gas)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">class Electricalcar(Car):</span><br><span class="line">    &quot;&quot;&quot;电动汽车&quot;&quot;&quot;</span><br><span class="line">    </span><br><span class="line">    def __init__(self,name,gas):#初始化父类属性</span><br><span class="line">        super.__init__(name,gas)</span><br></pre></td></tr></table></figure>
+
+<p><strong>创建子类时，父类必须在当前文件且在子类前</strong></p>
+<p>python2 中</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">class Car(object):</span><br><span class="line">    &quot;&quot;&quot; 一次模拟小车&quot;&quot;&quot;</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, gas):</span><br><span class="line">        self.name = name</span><br><span class="line">        self.gas = gas</span><br><span class="line"></span><br><span class="line">class Electricalcar(Car):</span><br><span class="line">    &quot;&quot;&quot;电动汽车&quot;&quot;&quot;</span><br><span class="line">    </span><br><span class="line">    def __init__(self,name,gas):#初始化父类属性</span><br><span class="line">        super(Electricalcar,self).__init__(name,gas)</span><br></pre></td></tr></table></figure>
+
+<h3 id="重写父类的方法"><a href="#重写父类的方法" class="headerlink" title="重写父类的方法"></a>重写父类的方法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">class Car():</span><br><span class="line">    &quot;&quot;&quot; 一次模拟小车&quot;&quot;&quot;</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, gas):</span><br><span class="line">        self.name = name</span><br><span class="line">        self.gas = gas</span><br><span class="line"></span><br><span class="line">    def sell(self):</span><br><span class="line">        print(&quot;卖出了&quot; + self.name)</span><br><span class="line"></span><br><span class="line">    def gasis(self):</span><br><span class="line">        print(&quot;剩余汽油&quot; + self.gas)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">class Electricalcar(Car):</span><br><span class="line">    &quot;&quot;&quot;电动汽车&quot;&quot;&quot;</span><br><span class="line">    </span><br><span class="line">    def __init__(self,name,gas):</span><br><span class="line">        super.__init__(name,gas)</span><br><span class="line">        self.ele=&apos;enough&apos;#为子类添加属性</span><br><span class="line">    </span><br><span class="line">    def gasis(self):#覆盖了父类的gasis</span><br><span class="line">    	print(&quot;no gas&quot;)</span><br></pre></td></tr></table></figure>
+
+<h3 id="将实例用作属性"><a href="#将实例用作属性" class="headerlink" title="将实例用作属性"></a>将实例用作属性</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">calss Battery():</span><br><span class="line">	&quot;&quot;&quot;用于模拟电池的相关属性&quot;&quot;&quot;</span><br><span class="line">	---snip---</span><br><span class="line"></span><br><span class="line">class Electricalcar(Car):</span><br><span class="line">    &quot;&quot;&quot;电动汽车&quot;&quot;&quot;</span><br><span class="line">    </span><br><span class="line">    def __init__(self,name,gas):</span><br><span class="line">        super.__init__(name,gas)</span><br><span class="line">        self.battery=Battery()</span><br></pre></td></tr></table></figure>
+
+<h2 id="导入类"><a href="#导入类" class="headerlink" title="导入类"></a>导入类</h2><p>类似于函数</p>
+<p><code>from car.py import Car</code></p>
+<h1 id="文件和异常"><a href="#文件和异常" class="headerlink" title="文件和异常"></a>文件和异常</h1>
+        
+            <div class="donate-container">
+    <div class="donate-button">
+        <button id="donate-button">赞赏</button>
+    </div>
+    <div class="donate-img-container hide" id="donate-img-container">
+        <img id="donate-img" src="" data-src="/images/939fe96dd0c2c80d34cf456b68c167c2.jpeg">
+        <p> 感谢鼓励 </p>
+    </div>
+</div>
+        
+        <br />
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="list-inline text-center">
+        
+        
+
+        
+        <li>
+            <a target="_blank" href="http://weibo.com/BeyoungBoSs">
+                            <span class="fa-stack fa-lg">
+                                  <i class="iconfont icon-weibo"></i>
+                            </span>
+            </a>
+        </li>
+        
+
+        
+
+        
+        <li>
+            <a target="_blank"  href="https://github.com/BeyoungBoSs">
+                            <span class="fa-stack fa-lg">
+                                <i class="iconfont icon-github"></i>
+                            </span>
+            </a>
+        </li>
+        
+
+        
+
+    </ul>
+    
+    <p>
+        <span>/</span>
+        
+        <span><a href="https://www.baidu.com/">baidu</a></span>
+        <span>/</span>
+        
+        <span><a href="https://cn.bing.com/?toHttps=1&amp;redig=97B48193991A412891950B794B15078C">bing</a></span>
+        <span>/</span>
+        
+        <span><a href="https://www.google.cn/">goole</a></span>
+        <span>/</span>
+        
+        <span><a href="#">other</a></span>
+        <span>/</span>
+        
+    </p>
+    
+    <p>
+        <span id="busuanzi_container_site_pv">
+            <span id="busuanzi_value_site_pv"></span>PV
+        </span>
+        <span id="busuanzi_container_site_uv">
+            <span id="busuanzi_value_site_uv"></span>UV
+        </span>
+        Created By <a href="https://hexo.io/">Hexo</a>  Theme <a href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
+</footer>
+
+
+
+
+</body>
+
+<script>
+    // We expose some of the variables needed by the front end
+    window.hexo_search_path = "search.json"
+    window.hexo_root = "/"
+    window.isPost = true
+</script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+        */
+        if( '' || '')
+        var disqus_config = function () {
+            this.page.url = '';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = ''; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = '#';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+
+
+
+</html>
